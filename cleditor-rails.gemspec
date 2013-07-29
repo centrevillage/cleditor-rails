@@ -7,6 +7,7 @@ Gem::Specification.new do |gem|
   gem.description   = %q{CLEeditor for rails}
   gem.summary       = %q{CLEeditor for rails}
   gem.homepage      = ""
+  gem.license      = 'MIT'
 
   gem.files         = Dir["{lib,vendor}/**/*"] + ["LICENSE", "README.md"]
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
